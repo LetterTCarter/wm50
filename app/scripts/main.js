@@ -1,1 +1,2 @@
-console.log('\'Allo \'Allo!');
+$('.image-container').imagefill();
+// image stretches to fill container
