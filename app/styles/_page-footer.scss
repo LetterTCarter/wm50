@@ -1,12 +1,29 @@
 //.page-footer.scss
 
 footer {
+  width: 100%;
   background-color: $gray;
   color: $white;
   margin: 0;
   padding: 0;
+  h3 {
+    margin: 0;
+    font-family: 'Raleway', Georgia, serif;
+    font-weight: 400;
+    padding: 0.625em;
+  }
+  p {
+   font-size: .75em;
+   text-align: right;
+ }
 }
 
-footer h3 {
-  margin: 0;
+.footer-nav {
+  float: right;
+  li {
+    float: left;
+    display: block;
+    font-size: .75em;
+    padding-right: 0.625em;
+  }
 }

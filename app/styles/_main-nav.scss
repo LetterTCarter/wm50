@@ -3,19 +3,23 @@
 .main-nav {
   @include clearfix;
   position: absolute;
-  top: 0.625em;
+  top: 0;
   right: 0;
   text-transform: uppercase;
 
   ul {
     list-style-type: none;
   	margin: 0;
+  	padding: .3em;
   }
+
   li {
     float: left;
+  	margin-right: .325em;
   }
 
   li a {
+    font-family: 'Raleway', Georgia, serif;
     display: block;
   	text-decoration: none;
   	color: $white;
@@ -36,16 +40,19 @@
     float: none;
   	background-color: $gray;
   }
+
   .home-main {
     &:hover {
       background-color: $black;
     }
   }
+
   .cause-main {
     &:hover {
       background-color: $red;
     }
   }
+
   .people-main {
     &:hover {
       background-color: $blue;
@@ -53,9 +60,6 @@
   }
   .journey-main {
     &:hover {
-      a {
-        color: $black;
-      }
       background-color: $yellow;
     }
   }

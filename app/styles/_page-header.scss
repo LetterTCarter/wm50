@@ -1,7 +1,6 @@
 //.page-header.scss
 
 .page-header {
-  @include clearfix;
   width: 100%;
   height: 50px;
   color: $white;
@@ -10,14 +9,14 @@
   margin: 0;
   padding: 0;
 
-  .main-nav {
-    float: right;
-  }
-
   h1 {
+    @include clearfix;
     font-family: 'Raleway', Georgia, serif;
     font-weight: 400;
-    margin: 0.325em;
-    padding-left: 0.625em;
+    padding: 0.125em 0 0 0.625em;
+  }
+
+  .main-nav {
+    float: right;
   }
 }
