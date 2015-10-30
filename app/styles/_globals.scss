@@ -4,26 +4,14 @@
 
 html {
   box-sizing: border-box;
+  background-color: $black;
 }
 
 *, *:before, *:after { box-sizing: inherit; }
 
 body {
-  background: #fafafa;
   font-family: 'Roboto Slab', Georgia, serif;
-  color: #333;
-  max-width: 60em;
-  margin: 0 auto;
-  padding: 0;
-}
-
-h1 {
   margin: 0;
-  padding: 0;
-}
-
-img {
-  max-width: 100%;
 }
 
 .browserupgrade {
@@ -33,26 +21,8 @@ img {
   padding: 0.2em 0;
 }
 
-.image-container {
-  max-width: 60em;
-  height: 21.25em;
-  margin: 0 auto;
-  img {
-    z-index: -10;
-    max-width: none;
-  }
-  h1 {
-    margin: 0;
-    padding-left: .625em;
-    font-family: 'Raleway', Georgia, serif;
-    font-weight: 400;
-    position: absolute;
-    bottom: .325em;
-    left: 0;
-    font-weight: 900;
-    font-size: 3em;
-    text-transform: uppercase;
-  }
+.fa {
+  color: $white;
 }
 
 #cause-heading {

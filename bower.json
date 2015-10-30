@@ -5,7 +5,8 @@
     "jquery": "~2.1.1",
     "modernizr": "~2.8.1",
     "imagesloaded": "~3.1.8",
-    "imagefill": "*"
+    "imagefill": "*",
+    "font-awesome": "fontawesome#~4.4.0"
   },
   "devDependencies": {
     "chai": "~3.4.0",

@@ -1,0 +1,22 @@
+//.image-container.scss
+.image-container {
+  max-width: 60em;
+  height: 21.25em;
+  margin: 0 auto;
+  img {
+    max-width: none;
+  }
+  h1 {
+    margin: 0;
+    padding-left: .625em;
+    font-family: 'Raleway', Georgia, serif;
+    font-weight: 400;
+    position: absolute;
+    bottom: .325em;
+    left: 0;
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+}

@@ -1,5 +1,5 @@
 // google fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 
 // main.scss
@@ -7,6 +7,11 @@
 @import "variables";
 @import "mixins";
 @import "globals";
+
+@import "page-container";
 @import "page-header";
 @import "main-nav";
+@import "image-container";
 @import "page-footer";
+@import "social-media";
+@import "footer-nav";
