@@ -1,2 +1,3 @@
+
+/* jshint devel:true */
 $('.image-container').imagefill();
-// image stretches to fill container
