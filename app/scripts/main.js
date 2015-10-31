@@ -1,3 +1,3 @@
 
-/* jshint devel:true */
+/*global $*/
 $('.image-container').imagefill();
