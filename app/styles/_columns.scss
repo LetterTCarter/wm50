@@ -1,0 +1,17 @@
+//.columns.scss
+
+.main-content {
+	max-width: 41.25em;
+	padding-right: 0.625em;
+	float: left;
+}
+
+.sidebar {
+	float: right;
+	max-width: 11.25em;
+	h3 {
+		margin-top: 0;
+		color: $gray;
+		font-family: 'Raleway', Georgia, serif;
+	}
+}

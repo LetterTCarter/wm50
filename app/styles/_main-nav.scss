@@ -1,15 +1,14 @@
 //.main-nav.scss
 
 .main-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
+  float: right;
   text-transform: uppercase;
 
   ul {
     list-style-type: none;
   	margin: 0;
   	padding: .3em;
+    z-index: 2;
   }
 
   li {

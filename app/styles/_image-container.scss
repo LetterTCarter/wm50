@@ -1,14 +1,14 @@
 //.image-container.scss
 .image-container {
   max-width: 60em;
-  height: 21.25em;
+  height: 31.25em;
   margin: 0 auto;
   img {
     max-width: none;
   }
   h1 {
     margin: 0;
-    padding-left: .625em;
+    padding: 0 0 0.325em 0.625em;
     font-family: 'Raleway', Georgia, serif;
     font-weight: 400;
     position: absolute;

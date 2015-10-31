@@ -1,0 +1,80 @@
+// .people-subpages
+
+.people-title {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: $blue;
+	color: $white;
+	h1 {
+		font-family: 'Raleway', Georgia, serif;
+		margin: 0;
+		padding: 0.325em;
+		text-transform: uppercase;
+	}
+}
+
+.regular {
+	text-transform: none;
+	font-weight: 400;
+}
+
+.hero-image {
+	background-image: url("../images/people-organizers-hero.jpg");
+	background-position: 50% 50%;
+	margin: 0;
+	padding: 0;
+	max-width: 60em;
+	height: 31.25em;
+}
+
+.people-content {
+	max-width: 52.5em;
+	margin: 2.5em auto;
+	overflow: hidden;
+}
+
+.feature-article {
+	margin-bottom: 5em;
+	img {
+	float: left;
+	padding-right: 0.625em;
+	}
+	h2 {
+		color: $blue;
+		font-family: 'Raleway', Georgia, serif;
+		text-transform: uppercase;
+		margin: 0;
+		padding-bottom: 0;
+	}
+	h4 {
+		font-size: .9em;
+		margin: 0;
+		padding-bottom: 0.625em;
+	}
+	.more-button {
+		display: block;
+		text-align: center;
+		background-color: $blue;
+		color: $white;
+		padding: 0.325em;
+		width: 6.875em;
+		&:hover {
+			background-color: $gray;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+.sidebar-more {
+	a {
+		text-decoration: none;
+		color: $blue;
+		&:hover {
+			border-bottom: 1px solid $blue;
+		}
+	}
+}
